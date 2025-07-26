@@ -11,13 +11,20 @@ A lightweight tool that uses Google's Gemini model to semantically summarize, cl
 
 ## 📁 Project Structure
 
-llm-log-analyzer/
+anomalyze/
+
 ├── src/...
+
 ├── data/input/
+
 ├── data/output/
+
 ├── .env
+
 ├── main.py
+
 ├── README.md
+
 └── requirements.txt
 
 
@@ -49,7 +56,7 @@ llm-log-analyzer/
 
 ## ⚙️ Usage
 
-python main.py --input data/input/var.log --output data/output/summary.txt --root-causes
+    python main.py --input data/input/var.log --output data/output/summary.txt --root-causes
 
 - "--root-causes" is optional. Omit it if you just want summaries.
 
@@ -66,12 +73,12 @@ This project augments such tools by:
 All using Google's Gemini LLM, making debugging and triage much faster.
 
 ## 🛠️ Future Enhancements
-- Web UI for real-time triage
+- Web UI for real-time priority
 - Live log stream support
 - Multi-modal observability (metrics + traces + logs)
 - GitHub Actions bot for PR logs
 - Vector DB integration for historical context
 
 ## 👤 Author
-Made with ❤️ by
+Made with ❤️ by [Deepanshu Vishwakarma](https://www.linkedin.com/in/deepanshu094/)
 
